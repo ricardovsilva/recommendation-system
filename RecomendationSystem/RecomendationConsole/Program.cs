@@ -17,7 +17,7 @@ namespace RecomendationConsole
         /// This method returns one list of recommendation with values filled.
         /// </summary>
         /// <returns>Returns list of recommendation with some values filled.</returns>
-        public static List<Recommendation> GetStaticRecommendationList()
+        public static Dictionary<Product, List<Recommendation>> GetStaticProductRecommendations()
         {
 
         }
