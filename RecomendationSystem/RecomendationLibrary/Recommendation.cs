@@ -16,5 +16,9 @@ namespace RecomendationLibrary
     /// </summary>
     public class Recommendation
     {
+        /// <summary>
+        /// Gets or sets the name of person who rated something.
+        /// </summary>
+        public string Name { get; set; }
     }
 }
