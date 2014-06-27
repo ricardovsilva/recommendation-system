@@ -20,5 +20,10 @@ namespace RecomendationLibrary
         /// Gets or sets the name of person who rated something.
         /// </summary>
         public string Name { get; set; }
+
+        /// <summary>
+        /// Gets or sets the rating.
+        /// </summary>
+        public double Rating { get; set; }
     }
 }
