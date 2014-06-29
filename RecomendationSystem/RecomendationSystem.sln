@@ -3,16 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecomendationConsole", "RecomendationConsole\RecomendationConsole.csproj", "{D8FFE208-66E9-4B7D-AAAD-E490CFC21AA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecomendationLibrary", "RecomendationLibrary\RecomendationLibrary.csproj", "{23AEEDF8-9281-422C-8DAB-1A48DAE91AA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8FFE208-66E9-4B7D-AAAD-E490CFC21AA0}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D8FFE208-66E9-4B7D-AAAD-E490CFC21AA0}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{D8FFE208-66E9-4B7D-AAAD-E490CFC21AA0}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{D8FFE208-66E9-4B7D-AAAD-E490CFC21AA0}.Debug|x86.ActiveCfg = Debug|x86
 		{D8FFE208-66E9-4B7D-AAAD-E490CFC21AA0}.Debug|x86.Build.0 = Debug|x86
+		{D8FFE208-66E9-4B7D-AAAD-E490CFC21AA0}.Release|Any CPU.ActiveCfg = Release|x86
+		{D8FFE208-66E9-4B7D-AAAD-E490CFC21AA0}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D8FFE208-66E9-4B7D-AAAD-E490CFC21AA0}.Release|Mixed Platforms.Build.0 = Release|x86
 		{D8FFE208-66E9-4B7D-AAAD-E490CFC21AA0}.Release|x86.ActiveCfg = Release|x86
 		{D8FFE208-66E9-4B7D-AAAD-E490CFC21AA0}.Release|x86.Build.0 = Release|x86
+		{23AEEDF8-9281-422C-8DAB-1A48DAE91AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23AEEDF8-9281-422C-8DAB-1A48DAE91AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23AEEDF8-9281-422C-8DAB-1A48DAE91AA7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{23AEEDF8-9281-422C-8DAB-1A48DAE91AA7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{23AEEDF8-9281-422C-8DAB-1A48DAE91AA7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{23AEEDF8-9281-422C-8DAB-1A48DAE91AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23AEEDF8-9281-422C-8DAB-1A48DAE91AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23AEEDF8-9281-422C-8DAB-1A48DAE91AA7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{23AEEDF8-9281-422C-8DAB-1A48DAE91AA7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{23AEEDF8-9281-422C-8DAB-1A48DAE91AA7}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

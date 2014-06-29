@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using RecomendationLibrary;
-
-namespace RecomendationConsole
+﻿namespace RecomendationConsole
 {
+    using System.Collections.Generic;
+    using RecomendationLibrary;
+
     class Program
     {
         static void Main(string[] args)
